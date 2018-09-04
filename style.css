@@ -1,0 +1,164 @@
+
+body{
+    display: block; margin: 0 auto;
+}
+#container{
+   
+    width: 100%;
+    height: 8535px;
+    max-width: 1920px;
+    min-width: 320px;
+
+}
+#hero_header{
+    height: 1080px;
+    
+}
+#intro_01{
+    height: 820px;
+}
+
+#intro_video{
+    height: 920px;
+    
+    
+}
+
+#lets_make{
+font-family: "Poppins-SemiBold"; 
+font-size: 70pt;
+float: left;
+text-align: left;
+line-height: 1.2;
+width: 30%
+padding:  0 0 0 5%; 
+margin: 3% 0 0 2.5%; 
+
+}
+#img_intro{
+   float: right;
+width: 60%;
+margin:  5% 0 0 2.5%;  
+}
+#lets_make p{
+font-family: "Poppins-Light"; 
+font-size: 18pt;
+}
+
+
+
+
+#img_video{
+float: left;
+width: 60%;
+margin:   7% 5% 0 0; 
+    }
+#who_i_am{
+font-family: "Poppins-SemiBold"; 
+font-size: 70pt;
+float: right;
+text-align: left;
+width: 30%;
+height: 100%;
+margin: :  5% 5%0 0; 
+padding: 5% 5% 0 0 ;
+line-height: 1.2;
+
+}
+
+#who_i_am  #p1{
+font-family: "Poppins-Light"; 
+font-size: 18pt;
+text-align: left;
+}
+#who_i_am #p2{
+font-family: "Poppins-Regular"; 
+font-size: 12pt;
+text-align: left;
+}
+
+
+#portfolio{
+    height: 2845px;
+    margin: 0 auto;
+    font-family: "Poppins-Medium"; 
+    font-size: 18pt;
+}
+#navbar{
+    margin: 2.5%;
+    padding-bottom: 2.5%;
+    list-style-type: none;
+}
+ #navbar a {
+        color: #abaeae;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+     #navbar a:hover {
+       
+        color: black;
+      }
+#portfolio ul {
+    
+    margin-top: 5% ;
+    list-style: none;
+}
+#portfolio ul li{
+    float: left;
+    margin: 10px ;
+    list-style: none;
+}
+
+
+
+#clear{
+    clear: both;
+}
+#pricing_table{
+    height: 1080px;
+    background-image: url(image/pricetable-min.png);
+    color: white;
+    text-align: center;
+   
+}
+.pricing{
+    float: right;
+    margin: 0 2.5% 0 2.5%;
+}
+#contacts{
+    height: 1205px;
+}
+#social{
+    height: 220px;
+    background-image: url(image/Background.png);
+}
+#footer{
+    height: 365px;
+}
+
+
+img {
+ max-width: 100%;
+ height: auto;
+ width: auto\9; /* ie8 */
+} 
+@font-face {
+font-family: "Poppins-SemiBold"; 
+src: url("fonts/Poppins-SemiBold.ttf"); 
+
+} 
+@font-face {
+font-family: "Poppins-Light"; 
+src: url("fonts/Poppins-Light.ttf"); 
+
+} 
+@font-face {
+font-family: "Poppins-Regular"; 
+src: url("fonts/Poppins-Regular.ttf"); 
+
+} 
+@font-face {
+font-family: "Poppins-Medium"; 
+src: url("fonts/Poppins-Medium.ttf"); 
+
+} 
